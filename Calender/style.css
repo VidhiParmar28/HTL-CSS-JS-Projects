@@ -1,0 +1,95 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color:#98D1DC; */
+}
+
+.base{
+    /* border: 2px solid black; */
+    border-radius: 15px;
+    height: 300px;
+    width: 500px;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    /* background-color: #98D1DC; */
+    
+}
+
+.div1{
+
+    height: 200px;
+    width: 200px;
+    color: white;
+    background-color: #fe59ae;
+    border-radius: 15px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.div2{
+    height: 200px;
+    width: 200px;
+    color: #fe59ae;
+    border-radius: 15px;
+    border: 5px solid #fe59ae;
+}
+
+.month{
+    display: block;
+    height: 100px;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.year{
+    display: block;
+    height: 100px;
+    font-size: 60px;
+      display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.date{
+     display: block;
+    height: 150px;
+    font-size: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.day{
+        display: block;
+    height: 50px;
+    font-size: 50px;
+    /* font-size: 100px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div1:hover{
+    color: #fe59ae;
+    background-color: white;
+    border: 5px solid #fe59ae;
+}
+
+.div2:hover{
+    color: white;
+    background-color: #fe59ae;
+}
