@@ -1,0 +1,69 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-image: url(https://pixabay.com/videos/water-dark-background-sea-deep-304019/); */
+    background-image: url(https://static.vecteezy.com/system/resources/previews/026/750/034/non_2x/christmas-fir-branch-background-free-photo.jpg);
+    /* background-image: url(https://media.macphun.com/img/uploads/macphun/blog/1247/christmasphoto.jpg); */
+    background-repeat: none;
+}
+
+#box{
+
+    /* border: 2px solid black; */
+    height: 200px;
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#showdays{
+    display: inline-block;
+    background-color: #9B1F28;
+    /* color: #1F654C; */
+    color: white;
+    height: 150px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+    
+
+}
+
+#showmonths{
+    display: inline-block;
+    background-color:#184F3C;
+    /* color: #C62833; */
+    color: white;
+     height: 150px;
+    width: 200px;
+      display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+      font-size: 20px;
+    text-align: center;
+}
+
+#showdays:hover{
+    background-color:white ;
+    color: #9B1F28;
+}
+
+#showmonths:hover{
+    background-color: white;
+    color: #184F3C;
+}
