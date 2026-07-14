@@ -1,0 +1,29 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+
+#container{
+    width: 90px;
+    background-color: #DBCDF0;
+
+    
+}
+
+a{
+    /* border: 2px solid pink; */
+    display: block;
+     align-items: center;
+     padding: 16px;
+    font-size: 36px;
+    color: white;
+   transition: all 0.3s ease;
+}
+
+a:hover{
+    /* background-color: #FAEDCB;
+ */
+ background-color: white;
+ color: #DBCDF0;
+}
