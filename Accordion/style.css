@@ -1,0 +1,33 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+
+
+.btn{
+    height: 100px;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+    font-size: 30px;
+    text-align: left;
+    color: white;
+    transition: all 0.5s ease;
+    background-color: #F2C6DE;
+    border: none;
+}
+
+.btn:hover{
+    background-color:#C9E4DE ;
+}
+
+
+
+.panel {
+  padding: 18px;
+  font-size: 30px;
+  background-color: #C9E4DE;
+  display: none;
+  /* overflow: hidden; */
+}
