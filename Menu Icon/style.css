@@ -1,0 +1,36 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#FFF9C8 ;
+}
+
+
+.container{
+    height: 300px;
+    width: 500px;
+    /* border: 2px solid red; */
+    display: flex;   
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.line{
+    height: 5px;
+
+    width: 35px;
+
+    background-color: white;
+    margin-top: 6px;
+}
+
+body{
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #4a0e78 0%, #7b2ff7 35%, #c724b1 70%, #e91e8c 100%);
+}
