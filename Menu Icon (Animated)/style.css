@@ -1,0 +1,47 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #FFF9C8; */
+    background: linear-gradient(135deg, #3a0ca3, #d0269e);
+}
+
+.container{
+
+    display: inline-block;
+    cursor: pointer;
+
+
+}
+
+
+.line1 ,.line2, .line3{
+    width: 210px;
+    height: 30px;
+    background-color:#FFB8D9;
+    /* background: linear-gradient(135deg, #3a0ca3, #d0269e); */
+    margin: 6px;
+    transition: 0.4s;
+    /* border: 1px solid white; */
+
+}
+
+.change .line1{
+    transform: translate(0,11px) rotate(-45deg);
+}
+
+.change .line2{
+    opacity: 0;
+}
+
+.change .line3{
+     transform: translate(0,-11px) rotate(45deg);
+}
