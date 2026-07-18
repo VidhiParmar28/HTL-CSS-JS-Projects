@@ -1,0 +1,54 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.container{
+    display: flex;
+    justify-content: flex-start;
+    align-items:stretch;
+}
+
+.tabcontent{
+    flex: 1;
+    padding: 400px 0px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+
+.btncontainer{
+    width: 200px;
+    background-color: #EEEEEE;
+}
+
+
+button{
+     background-color: #EEEEEE;
+    color: #000000;
+    display: block;
+    height: 10%;
+    width: 100%;
+    padding:20px;
+    cursor: pointer;
+    font-size: 25px;
+    border: none;
+    transform: all 0.5s ease;
+}
+
+button:hover{
+    background-color: grey;
+}
+
+#btn1:hover{
+    background-color: #0075b8;
+
+}
+#btn2:hover{
+    background-color: #ab8ee5;
+
+}
+#btn3:hover{
+    background-color: #27a16c;
+
+}
