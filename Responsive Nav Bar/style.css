@@ -1,0 +1,95 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.topnav{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: #333; */
+
+background-color: #ffff80;
+    
+
+}
+
+.tablink{
+    padding: 20px;
+    font-size: 24px;
+    text-decoration: none;
+    text-align: center;
+    color: #8080ff;
+    transition: all 0.5s ease;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+.tablink:hover{
+    /* background-color: #FFFFFF; */
+    background-color: #8080ff;
+    /* color: #333; */
+    color: #ffff80;
+}
+
+
+button{
+   padding: 20px;
+   color:black;
+   display: none;
+   background-color: #8080ff;
+   color: #ffff80;
+   font-size: 20px;
+   border: none;
+   text-decoration: none;
+   /* border-radius: 5px; */
+   /* margin-left: auto; */
+} 
+
+/* #btn{
+    margin-left: auto;
+} */
+
+button:hover{
+    cursor: pointer;
+}
+
+
+@media(min-width:100px) and (max-width:600px){
+
+.topnav{
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    /* align-items: stretch; */
+}
+
+ .tablink{
+    display: none; 
+    background-color: #ffff80;
+    text-align: left;
+    width:100%;
+
+ }
+
+ .tablink.show{
+    display: block;
+ }
+ #home{
+    display: inline;
+    background-color:#8080ff;
+    color: #ffff80;
+    text-align: left;
+    width: auto;
+    
+ }
+
+ button{
+    display: inline;
+    text-decoration: none;
+ }
+
+}
