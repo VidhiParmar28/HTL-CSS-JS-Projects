@@ -1,0 +1,31 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.topnav{
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+a{
+    padding: 20px;
+    width: 100%;
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+    background-color: #333;
+    text-align: center;
+    
+}
+
+a:hover{
+    background-color: grey;
+}
+
+#activea{
+    background-color: #0e5883;
+}
