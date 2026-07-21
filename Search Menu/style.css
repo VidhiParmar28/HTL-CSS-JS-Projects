@@ -1,0 +1,53 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.section{
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.listcontainer{
+    background-color: rgb(211, 208, 208);
+    color: white;
+
+}
+
+h1{
+    padding: 20px;
+    font-size: 40px;
+    color: black;
+}
+
+h2{
+    padding: 20px;
+    font-size: 40px;
+}
+
+input{
+    font-size: 24px;
+    border-radius:7px ;
+    height: 30px;
+    padding: 20px;
+    border: none;
+}
+
+li{
+    padding: 20px;
+    font-size: 24px;
+}
+
+a{
+    text-decoration: none;
+    color: #333;
+    font-weight: 400;
+}
+
+
+
+li:hover{
+    background-color: white;
+}
