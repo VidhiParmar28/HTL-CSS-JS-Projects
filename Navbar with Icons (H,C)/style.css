@@ -1,0 +1,37 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar{
+    background-color: #333;
+    /* padding: 20px; */
+}
+
+a{
+    padding: 10px 0px;
+    width: 25px;
+    margin: 20px;
+    text-align: center;
+    font-size: 29px;
+    text-decoration: none;
+    color: white;
+    transition: all 0.7s ease;
+}
+
+i{
+    padding: 10px;
+
+}
+
+a:hover{
+    background-color: aliceblue;
+    color: black;
+}
+
+
+@media (width:100px) and (width:500px){
+    a{
+        display: block;
+    }
+}
