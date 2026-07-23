@@ -1,0 +1,59 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar{
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+}
+
+
+.navbar a{
+   padding: 20px ;
+   font-size: 24px;
+   text-decoration: none;
+   color: white;
+}
+
+
+.navbar a:hover{
+    background-color: white;
+    color: black;
+}
+
+#closebtn{
+display: none;
+}
+
+
+@media (min-width:0px) and (max-width:600px){
+    .navbar a{
+        display: none;
+    }
+    #closebtn{
+        display: block;
+    }
+    #home{
+        display: block;
+    }
+    .navbar{
+        justify-content: space-between;
+    }
+}
+
+
+.navbar.responsive{
+    flex-direction: column;
+}
+
+    .navbar.responsive a{
+        display: block;
+        text-align: left;
+    }
+
