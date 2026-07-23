@@ -1,0 +1,31 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.topnav{
+    display: flex;
+    justify-content:flex-start;
+   align-items: center;
+   background-color: black;
+
+}
+
+.topnav a{
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+}
+
+.rightnav{
+    /* align-self: flex-end; */
+    margin-left: auto;
+    display: flex;
+}
+
+.topnav a:hover{
+    background-color: white;
+    color: black;
+}
